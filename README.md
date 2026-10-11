@@ -1,13 +1,13 @@
 # Nebula AI
 
-> AI-powered software quality platform — code review, security scanning, complexity analysis, test generation, smell detection and code conversion. **100% powered by Groq's LLM (llama-3.3-70b-versatile).**
+> AI-powered software quality platform — code review, security scanning, complexity analysis, test generation, smell detection and code conversion. **100% powered by Groq's LLM (openai/gpt-oss-120b).**
 
 ## Stack
 | Layer | Technology |
 |---|---|
 | Frontend | React 18 · React Router · Vite · Tailwind CSS |
 | Backend  | FastAPI · Uvicorn · Pydantic · Groq SDK |
-| AI       | Groq Cloud — llama-3.3-70b-versatile (JSON Mode) |
+| AI       | Groq Cloud — openai/gpt-oss-120b (JSON Mode) |
 
 ## Features
 - **Dashboard** — Paste code → AI analysis → errors, corrected code, explanations, health score
