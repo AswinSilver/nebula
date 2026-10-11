@@ -1,4 +1,4 @@
-# Debuggy AI
+# Nebula AI
 
 > AI-powered software quality platform — code review, security scanning, complexity analysis, test generation, smell detection and code conversion. **100% powered by Groq's LLM (llama-3.3-70b-versatile).**
 
