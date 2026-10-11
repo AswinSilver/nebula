@@ -29,7 +29,7 @@ app.add_middleware(
 _key = os.environ.get("GROQ_API_KEY", "")
 client: Groq | None = Groq(api_key=_key) if _key else None
 
-MODEL = "llama-3.3-70b-versatile"
+MODEL = "openai/gpt-oss-120b"
 
 
 def ai(prompt: str, system: str, max_tokens: int = 3000) -> dict[str, Any] | None:
